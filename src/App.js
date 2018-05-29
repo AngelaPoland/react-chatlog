@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import chatMessages from './data/messages.json';
+import Conversation from './components/Conversation';
 
 class App extends Component {
   render() {
